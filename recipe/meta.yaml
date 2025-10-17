@@ -1,5 +1,5 @@
 {% set name = "rubin-nights" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rubin_nights-{{ version }}.tar.gz
-  sha256: dcba696901a8c552c5538db2703d4bedae77273416b10b9418a4d9c420e22d67
+  sha256: b4d80bb725412e202782e943b87cfe437604b104541b9788b64cdd784a1b7fbd
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ requirements:
     - psycopg
     - pyvo
     - pyyaml
-    - rubin-scheduler
+    - rubin-scheduler >=3.18
     - rubin-sim
     - sqlalchemy
 
