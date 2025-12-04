@@ -35,7 +35,7 @@ requirements:
     - pyvo
     - pyyaml
     - rubin-scheduler >=3.18
-    - rubin-sim
+    - rubin-sim >=2.6.0
     - sqlalchemy
 
 test:
