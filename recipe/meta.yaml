@@ -1,5 +1,5 @@
 {% set name = "rubin-nights" %}
-{% set version = "0.8.1" %}
+{% set version = "0.9.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rubin_nights-{{ version }}.tar.gz
-  sha256: 78890cdb2ba0732e95ee28e3d05c44cafac835da37e20cdca3430345bb376223
+  sha256: bcac349d3242823898d00bb889130a997e35314dea9e49941fe3748fdd2dd136
 
 build:
   noarch: python
